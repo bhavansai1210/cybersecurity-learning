@@ -1,12 +1,16 @@
-# Cybersecurity Learning
+# Pure Cybersecurity Learning
 
-Personal cybersecurity learning journey with a focus on practical security, DevSecOps, and Cloud Security.
+A hands-on personal cybersecurity learning journey covering offensive security, defensive security, networking, operating-system security, web security, SOC, incident response, forensics, malware analysis, threat intelligence, and advanced security.
 
 ## Progress
 
-- ✅ Day 1 — Cybersecurity Fundamentals
-- ✅ Day 2 — Networking, Ports & Nmap
-- ⏳ Day 3 — Linux Security Fundamentals
+- [x] Day 1 — Cybersecurity Fundamentals
+- [x] Day 2 — Networking, Ports & Nmap
+- [ ] Day 3 — Linux Security
+
+## Roadmap
+
+See [Pure Cybersecurity Roadmap](roadmap/cybersecurity-roadmap.md).
 
 ## Repository Structure
 
@@ -21,26 +25,6 @@ cybersecurity-learning/
     └── networking-ports-nmap.md
 ```
 
-## Learning Path
+## Practice Rule
 
-```text
-Cybersecurity Fundamentals
-        ↓
-Networking
-        ↓
-Linux Security
-        ↓
-Web Security / OWASP
-        ↓
-Cloud Security
-        ↓
-DevSecOps
-        ↓
-Kubernetes Security
-        ↓
-SIEM & Incident Response
-        ↓
-Advanced Security
-```
-
-> All practical security testing in this repository should be performed only against systems you own or have explicit permission to test.
+All offensive security exercises in this repository are intended for systems you own or have explicit permission to test.
