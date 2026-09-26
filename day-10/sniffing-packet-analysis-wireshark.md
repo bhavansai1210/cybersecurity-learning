@@ -138,3 +138,48 @@ This can help verify encrypted transport and expected network behavior in test e
 > Wireshark ante packets ni just chudadam kaadu. Source, destination, protocol, port, timing, behavior anni combine chesi “Ee traffic normal aa? Suspicious aa? Enduku?” ani analyze cheyadam.
 
 **Next:** Day 11 — Web Security & OWASP Fundamentals.
+---
+# 🔥 Extra Real-World Examples & Complete Interview Coverage
+
+## Practical Examples
+### TCP handshake
+Client → SYN → Server → SYN/ACK → Client → ACK.
+**Tinglish:** Ee sequence TCP connection establish avvadaniki common starting flow.
+### DNS investigation
+Host → DNS query → DNS response → connection to returned IP. SOC analysts can correlate DNS and network events.
+### HTTP vs HTTPS
+HTTP lab traffic may expose application details. Correctly configured HTTPS protects application payload with TLS, while metadata such as IPs and timing may still be observable.
+### SOC investigation
+Alert → Host → Endpoint logs → DNS → PCAP → IOC → Timeline → Incident Response.
+
+## 🎤 Interview Question Bank
+1. What is packet sniffing?
+2. What is packet capture?
+3. What is Wireshark?
+4. What is promiscuous mode?
+5. Does promiscuous mode expose all internet traffic?
+6. What is a packet?
+7. What are source and destination?
+8. What is a protocol?
+9. Explain TCP three-way handshake.
+10. What are SYN, ACK, FIN and RST?
+11. TCP vs UDP?
+12. How do you analyze DNS traffic?
+13. What can HTTP reveal?
+14. What does TLS protect?
+15. What metadata may remain visible with HTTPS?
+16. What is a Wireshark display filter?
+17. What is Follow TCP Stream?
+18. How can packet analysis detect scanning?
+19. How can packet analysis support malware investigation?
+20. How can PCAP support incident response?
+21. What is an IOC?
+22. Why is a timeline important?
+23. Why should captures be authorized?
+24. One host contacts many ports. What might this indicate?
+25. A workstation queries an unusual domain and immediately connects to its IP. What would you investigate?
+26. You see repeated RST packets. Is that automatically malicious?
+27. HTTPS traffic is visible in Wireshark. Does that mean the payload is readable?
+28. A SIEM alert says a host contacted a suspicious IP. How could PCAP help validate it?
+
+**Interview formula:** Capture → Filter → Protocol → Correlate → Investigate → Document.
