@@ -811,3 +811,47 @@ Privilege Escalation
 > **Windows Security ante users/groups evaru, vallaki em permissions unnayi, em processes/services run avtunnayi, firewall and Defender active ga unnaya, logs em cheptunnayi, scheduled tasks enti, RDP exposure unda ani continuously review chesi unnecessary access ni reduce cheyadam.**
 
 **Next:** Day 5 — Cryptography Fundamentals.
+
+---
+# 🔥 Extra Real-World Examples & Complete Interview Coverage
+
+## Practical Examples
+### Windows authentication
+User → Authentication → Security context/token → Resource access.
+**Tinglish:** Login successful ayina tarvata permissions security context base chesi apply avutayi.
+### UAC
+An application requests an administrative operation. UAC can require elevation depending on account and policy.
+### Windows logs
+Repeated failed logins followed by a successful login can be investigated using Security logs and correlated with process/network activity.
+### PowerShell
+PowerShell is legitimate administration technology, but suspicious PowerShell activity can be an important detection signal.
+### Sysmon
+Process creation + command line + parent process + network connection can provide useful endpoint investigation evidence.
+
+## 🎤 Interview Question Bank
+1. What is Windows security?
+2. Users vs groups?
+3. What is UAC?
+4. Local vs domain authentication?
+5. What is Active Directory?
+6. What is a Domain Controller?
+7. What is Kerberos at a high level?
+8. What are Windows Security Logs?
+9. System vs Application logs?
+10. What is PowerShell?
+11. Why can PowerShell be security-sensitive?
+12. What is Sysmon?
+13. Why is process creation telemetry useful?
+14. What is Windows privilege escalation?
+15. What is an administrative account?
+16. What are NTFS permissions?
+17. Why are Windows services security-sensitive?
+18. What is persistence?
+19. What is endpoint detection?
+20. Why is log correlation important?
+21. What is Group Policy?
+22. A new administrator account appears unexpectedly. What would you investigate?
+23. PowerShell starts from an unusual parent process. What telemetry would you check?
+24. A Windows service starts unexpectedly. What evidence would you collect?
+
+**Interview formula:** Identity → Process → Parent Process → Network → Logs → Timeline.
