@@ -506,3 +506,50 @@ Identity → Authentication → MFA → Authorization → RBAC / ABAC → Least 
 > **Identity Security ante “Evaru?” → Authentication, “Em cheyagalru?” → Authorization, “Enta access ivvali?” → Least Privilege, “High privilege ni ela control cheyali?” → PAM, “Suspicious access ni ela detect cheyali?” → Monitoring.**
 
 **Next:** Day 7 — Vulnerability, Threat, Risk & Vulnerability Management.
+---
+# 🔥 Extra Real-World Examples & Complete Interview Coverage
+
+## Practical Examples
+### RBAC
+Developer role → read source code + deploy to development. The role is assigned to multiple developers.
+### ABAC
+User = Finance + managed device + finance resource + business hours → allow.
+### Least privilege
+CI/CD should not automatically have permanent production-admin permissions.
+### Account lifecycle
+Join → Provision → Review → Role Change → Revoke → Offboard.
+**Tinglish:** Employee leave ayyaka access active ga unte unnecessary risk.
+
+## 🎤 Interview Question Bank
+1. What is IAM?
+2. Identity vs account?
+3. Authentication vs authorization?
+4. What is MFA?
+5. What are authentication factors?
+6. What is RBAC?
+7. What is ABAC?
+8. RBAC vs ABAC?
+9. What is least privilege?
+10. What is privileged access?
+11. What is PAM?
+12. What is a service account?
+13. Why are service accounts sensitive?
+14. What is credential stuffing?
+15. What is password spraying?
+16. What is phishing?
+17. What is MFA fatigue?
+18. What is session theft?
+19. What is session fixation?
+20. Why are Secure, HttpOnly and SameSite cookie attributes important?
+21. What is access review?
+22. What is identity lifecycle management?
+23. Why should inactive accounts be disabled?
+24. Why should CI/CD identities use least privilege?
+25. What are short-lived credentials?
+26. Why should privileged accounts be monitored?
+27. What is privilege accumulation?
+28. A developer can delete production data. What would you review?
+29. A service account has full admin permissions. What is the concern?
+30. A CI/CD token has broad production permissions. How would you reduce risk?
+
+**Interview formula:** Who → Verify → What access → Why access → Monitor → Revoke.
