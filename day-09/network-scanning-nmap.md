@@ -102,3 +102,44 @@ Run:
 > Nmap workflow: Host → Port → Service → Version → Exposure → Risk.
 
 **Next:** Day 10 — Sniffing, Packet Capture & Wireshark.
+---
+# 🔥 Extra Real-World Examples & Complete Interview Coverage
+
+## Practical Examples
+### Port interpretation
+If 22/tcp is open, investigate whether SSH is required, who can reach it, what version runs, and whether access is appropriately restricted.
+### TCP vs UDP
+A DNS service may use UDP 53. A TCP-only scan can therefore miss UDP exposure.
+### Scan to risk
+Nmap → open port → service → version → exposure review → vulnerability validation.
+**Tinglish:** Nmap result itself final vulnerability verdict kaadu.
+
+## 🎤 Interview Question Bank
+1. What is network scanning?
+2. What is host discovery?
+3. What is port scanning?
+4. What is service enumeration?
+5. What is version detection?
+6. What is OS detection?
+7. What is Nmap?
+8. What does -sn do?
+9. What does -sV do?
+10. What does -O do?
+11. What does -sU do?
+12. What does -p do?
+13. How do you save Nmap output?
+14. TCP scan vs UDP scan?
+15. Open vs closed vs filtered?
+16. Why can Nmap results be incomplete?
+17. Why is OS detection not always accurate?
+18. Why must scans be authorized?
+19. What is service fingerprinting?
+20. How do you interpret an unexpected open port?
+21. How can scanning support vulnerability management?
+22. How can network validation fit into DevSecOps?
+23. Why should production scanning be controlled?
+24. Nmap finds port 22 open. What next?
+25. Nmap finds an unknown service. How do you investigate?
+26. A scan finds many open ports. How do you prioritize investigation?
+
+**Interview formula:** Scope → Discovery → Ports → Service/version → Exposure → Validation.
