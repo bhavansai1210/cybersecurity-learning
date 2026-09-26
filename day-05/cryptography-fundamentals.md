@@ -898,3 +898,52 @@ Key Management
 > **PKI = Keys + Certificates + CA + Trust + Validation.**
 
 **Next:** Day 6 — Identity & Access Security (IAM, MFA, RBAC, ABAC, Privileged Access, Sessions).
+
+---
+# 🔥 Extra Real-World Examples & Complete Interview Coverage
+
+## Practical Examples
+### HTTPS
+Browser → TLS → Protected application traffic → Server.
+### Password storage
+Password → Argon2id/bcrypt/scrypt + unique salt → Stored password hash.
+### Digital signature
+Message → Hash → Sign with private key → Signature → Verify using public key.
+### Hybrid cryptography
+Asymmetric cryptography helps establish/protect a session key; symmetric cryptography efficiently protects bulk data.
+### Key management
+Even a strong algorithm can fail operationally if keys are exposed, reused incorrectly, or poorly controlled.
+
+## 🎤 Interview Question Bank
+1. What is cryptography?
+2. Plaintext vs ciphertext?
+3. What is a cryptographic key?
+4. What is symmetric encryption?
+5. What is asymmetric cryptography?
+6. Public key vs private key?
+7. What is AES?
+8. What is RSA?
+9. What is hashing?
+10. What is SHA-256?
+11. Hashing vs encryption?
+12. Why should passwords not be stored as plaintext?
+13. What are Argon2id, bcrypt and scrypt?
+14. What is a salt?
+15. Does a salt need to be secret?
+16. What is a digital signature?
+17. What is a digital certificate?
+18. What is a Certificate Authority?
+19. What is PKI?
+20. What is TLS?
+21. Why does HTTPS use TLS?
+22. What is key management?
+23. Why is randomness important?
+24. What is a nonce?
+25. Why shouldn't developers invent cryptographic algorithms?
+26. What is certificate validation?
+27. What is hybrid cryptography?
+28. Encryption vs encoding vs hashing?
+29. Two users have the same password. Why should their stored hashes differ?
+30. Why can strong encryption still fail if key management is weak?
+
+**Interview formula:** Algorithm → Key → Purpose → Example → Security limitation.
