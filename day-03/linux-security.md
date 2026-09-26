@@ -847,3 +847,50 @@ Linux Hardening
 > **Linux Security ante users evaru, vallaki em permissions unnayi, em processes/services run avtunnayi, em ports open unnayi, scheduled jobs enti, logs em cheptunnayi ani understand chesi unnecessary access ni reduce cheyadam.**
 
 **Next:** Day 4 — Windows Security Fundamentals.
+
+---
+# 🔥 Extra Real-World Examples & Complete Interview Coverage
+
+## Practical Examples
+### File permissions
+A sensitive file with overly broad permissions may allow unauthorized users to read or modify it. Least privilege should be applied.
+### Sudo
+If a normal user has unnecessary broad sudo permissions, compromise of that account can create a privilege-escalation path.
+### SUID
+A vulnerable SUID executable can sometimes allow a low-privileged user to perform an action with the file owner's privileges.
+### SSH investigation
+Many failed SSH logins followed by a successful login should trigger investigation of source, account, time, commands, and related activity.
+### Logs
+Linux logs help build a timeline: failed login → successful login → suspicious process → network connection.
+
+## 🎤 Interview Question Bank
+1. Why is Linux important in cybersecurity?
+2. What is a Linux user?
+3. What is a group?
+4. What are UID and GID?
+5. What is /etc/passwd?
+6. What is /etc/shadow?
+7. Why is /etc/shadow protected?
+8. Explain Linux file permissions.
+9. Explain rwx.
+10. Explain 755, 644, 600 and 700.
+11. What is chmod?
+12. What is chown?
+13. What is sudo?
+14. What is root?
+15. What are SUID and SGID?
+16. What is a process?
+17. What is a service?
+18. What is SSH?
+19. How can SSH be secured?
+20. What is cron?
+21. Why are cron jobs security-sensitive?
+22. Which Linux logs are useful during investigation?
+23. What is privilege escalation?
+24. What is persistence?
+25. Why is least privilege important?
+26. A file containing secrets is writable by everyone. Why is that risky?
+27. A user has broad sudo access. What is the risk?
+28. You find an unknown listening service. What do you investigate?
+
+**Interview formula:** User → Permission → Process → Service → Persistence → Logs → Privilege.
