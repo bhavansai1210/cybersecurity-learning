@@ -302,3 +302,37 @@ Networking Fundamentals
 ```
 
 **Next:** Day 2 — Networking, Ports & Nmap.
+
+---
+# 🔥 Extra Real-World Examples & Complete Interview Coverage
+
+## Practical Examples
+**Confidentiality:** Hospital patient data should be accessible only to authorized people. If everyone can view it, confidentiality is broken.
+**Integrity:** If an attacker changes a bank account number before payment, integrity is affected.
+**Availability:** If a banking website is unavailable to legitimate users, availability is affected.
+**Authentication + Authorization:** Employee logs in with password + MFA = authentication. Developer role allows reading code but not deleting production data = authorization.
+**Encryption vs Hashing:** TLS protects data in transit using encryption. Password storage should use dedicated password hashing such as Argon2id, bcrypt, or scrypt.
+
+## 🎤 Interview Question Bank
+1. What is cybersecurity?
+2. What is the CIA Triad?
+3. Explain Confidentiality with an example.
+4. Explain Integrity with an example.
+5. Explain Availability with an example.
+6. What is authentication?
+7. What is authorization?
+8. Authentication vs authorization?
+9. What is MFA?
+10. What is least privilege?
+11. What is encryption?
+12. What is hashing?
+13. Encryption vs hashing?
+14. Why should plaintext passwords not be stored?
+15. What is an attack surface?
+16. Why is networking knowledge important for cybersecurity?
+17. A user can log in but cannot delete a database. Which security concept controls this?
+18. An attacker modifies a transaction. Which CIA property is affected?
+19. A website is unavailable. Which CIA property is affected?
+20. A database password is leaked. What should a security analyst investigate next?
+
+**Interview formula:** Definition → Real example → Security impact.
