@@ -464,3 +464,50 @@ Firewall → Evarini allow/block cheyalo control
 ```
 
 **Next:** Day 3 — Linux Security.
+
+---
+# 🔥 Extra Real-World Examples & Complete Interview Coverage
+
+## Practical Examples
+### Website request
+Browser → DNS → IP → TCP → TLS → HTTPS → Server.
+**Tinglish:** Website open chesinappudu DNS IP find chestundi, TCP connection establish chestundi, HTTPS ayithe TLS protection establish avtundi.
+
+### Port exposure
+A server has SSH on 22, HTTPS on 443, and PostgreSQL on 5432. If PostgreSQL is only needed internally, exposing 5432 publicly increases attack surface.
+**Tinglish:** Service required unna network ki matrame expose cheyyadam safer.
+
+### Nmap interpretation
+If Nmap shows 443/tcp open https, do not immediately call it a vulnerability. Check service version, exposure, patch status, authentication, TLS configuration, and business requirement.
+
+## 🎤 Interview Question Bank
+1. What is an IP address?
+2. IPv4 vs IPv6?
+3. Public vs private IP?
+4. What is a subnet?
+5. What is a port?
+6. Why are ports required?
+7. What is TCP?
+8. What is UDP?
+9. TCP vs UDP?
+10. Explain the TCP three-way handshake.
+11. What is DNS?
+12. What is DHCP?
+13. What is NAT?
+14. What is SSH?
+15. What is SMTP?
+16. HTTP vs HTTPS?
+17. What is TLS?
+18. What is Nmap?
+19. What is host discovery?
+20. What is port scanning?
+21. What does -sV do?
+22. What does -O attempt to detect?
+23. What does -p do?
+24. What does -sU do?
+25. Is every open port a vulnerability?
+26. Why must scanning be authorized?
+27. Port 5432 is exposed to the internet. What would you investigate?
+28. Nmap finds an unknown SSH service. What would you check?
+
+**Interview formula:** Explain the concept → give a network example → explain the security implication.
