@@ -94,3 +94,41 @@ Document domain, DNS records, name servers, mail servers, IPs, technologies, and
 > Recon ante first attack cheyyadam kaadu. First target ni understand cheyadam. Scope → Information → Attack Surface → Document.
 
 **Next:** Day 9 — Network Scanning & Nmap.
+---
+# 🔥 Extra Real-World Examples & Complete Interview Coverage
+
+## Practical Examples
+### Passive recon
+Public DNS, Certificate Transparency, public documentation and search results can help build an attack-surface map without directly probing the target.
+### Active recon
+An authorized Nmap scan directly interacts with the target to identify hosts, ports and services.
+### Subdomain exposure
+www, api, dev and old subdomains can represent different applications and should be reviewed within authorized scope.
+### Recon report
+Domain → IP → DNS → Subdomains → Technologies → Potential attack surface → Evidence and source.
+
+## 🎤 Interview Question Bank
+1. What is reconnaissance?
+2. Why is reconnaissance important?
+3. Passive vs active reconnaissance?
+4. What is OSINT?
+5. What is WHOIS?
+6. What is DNS reconnaissance?
+7. What is subdomain enumeration?
+8. What is ASN?
+9. What is network ownership?
+10. What is technology fingerprinting?
+11. What is Certificate Transparency?
+12. What are Shodan and Censys?
+13. What is search-engine reconnaissance?
+14. Why is scope important?
+15. What is an attack-surface map?
+16. Why can development subdomains be security-relevant?
+17. What is information disclosure?
+18. How do you document recon findings?
+19. Why should OSINT evidence include source and timestamp?
+20. You discover an old subdomain. What do you do?
+21. CT logs reveal a hostname you did not know about. What is your next step?
+22. A public document exposes internal hostnames. What is the security concern?
+
+**Interview formula:** Scope → Passive → Authorized Active → Validate → Document.
